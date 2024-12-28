@@ -15,7 +15,7 @@ html {
   margin-left: 40px; 
   width: 600px;
   height: 158px;
-  overflow:hidden}
+  overflow:hidden;}
 .r1 {
   position: relative;
 }
@@ -111,7 +111,8 @@ html {
   margin-left: 40px; 
   width: 1840px;
   height: 220px;
-  overflow:hidden}
+  overflow:hidden;
+  border-radius:40px}
   .r2 {
     position: relative;
   }
