@@ -1,0 +1,203 @@
+html {
+    background: black;
+  }
+  .poster {
+    position: relative;
+    overflow: hidden;
+    background: black;
+    height: 2308px;
+  }
+
+  /*бегущая строка*/
+.running1 {  background: #1D1C22;}
+.running1 {
+  margin-top: 40px;
+  margin-left: 40px; 
+  width: 600px;
+  height: 158px;
+  overflow:hidden}
+.r1 {
+  position: relative;
+}
+.r1 {
+  left: 0;
+  animation: anim1 1s linear infinite ;
+  animation-play-state: running;
+}
+@keyframes anim1 {
+  0% {left: -642px}
+  100% {left: 0px}
+}
+
+.steklo1 {
+  margin-left: 660px;
+  margin-top:-158px;
+}
+.shashki1 {
+  margin-left: 970px;
+  margin-top:-160px;
+}
+.krug {
+  margin-left: 40px;
+  margin-top: 16px;
+}
+.razlom {
+  margin-left: 350px;
+  margin-top:-314px;
+}
+.pinkhearts {
+  margin-left: 660px;
+  margin-top: -474px;
+}
+.bigheart {
+  margin-left: 1280px;
+  margin-top: -224px;
+}
+.kardashian {
+  margin-left: 40px;
+  margin-top: -120px;
+  animation: shake2 1s ease infinite;
+}
+@keyframes shake2 {
+  0%, 100% {transform: translateX(0);}
+  10%, 30%, 50%, 70%, 90% {transform: translateY(-30px);}
+  20%, 40%, 60%, 80% {transform: translateY(30px);}
+}
+.light1 {
+  margin-left: 350px;
+  margin-top: -340px;
+}
+.drops {
+  margin-left: 660px;
+  margin-top: -173px;
+}
+.kintsugi {
+  margin-left: 660px;
+  margin-top: -586px;
+}
+.razlom2 {
+  margin-left: 40px;
+  margin-top: 205px;
+}
+.hearts {
+  margin-left: 660px;
+  margin-top: -248px;
+}
+.light2 {
+  margin-left: 970px;
+  margin-top: -438px;
+}
+.star1 {
+  margin-left: 1280px;
+  margin-top: -632px;
+}
+.yourlossbaby {
+  margin-left: 1590px;
+  margin-top: -631px;
+}
+.heart {
+  margin-left: 1280px;
+  margin-top: 20px;
+}
+.steklo2 {
+  margin-left: 1590px;
+  margin-top: 20px;
+}
+
+/*бегущая строка коробочек без пацанов*/
+.running2 {  background: #ffffff;}
+.running2 {
+  margin-top: 0px;
+  margin-left: 40px; 
+  width: 1840px;
+  height: 220px;
+  overflow:hidden}
+  .r2 {
+    position: relative;
+  }
+  .r2 {
+    animation: anim2 2s linear infinite ;
+    animation-play-state: running;
+  }
+  @keyframes anim2 {
+    0% {left: -3169px}
+    100% {left: 0px}
+  }
+  .running2:hover .r2 {
+animation-play-state: paused;
+  }
+
+  .shashki2 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+/*бегущая мини строка черных сердечек*/
+.running3 {  background: #ffffff;}
+.running3 {
+  margin-top: -178px;
+  margin-left: 970px; 
+  width: 290px;
+  height: 158px;
+  overflow:hidden}
+  .r3 {
+    position: relative;
+  }
+  .r3 {
+    animation: anim3 1s linear infinite reverse;
+    animation-play-state: running;
+  }
+  @keyframes anim3 {
+    0% {left: -290px}
+    100% {left: 0px}
+  }
+
+  /*бегущая строка кружков*/
+.running4 {  background: #FF5695;}
+.running4 {
+  margin-top: -174px;
+  margin-left: 1280px; 
+  width: 600px;
+  height: 158px;
+  overflow:hidden}
+  .r4 {
+    position: relative;
+  }
+  .r4 {
+    animation: anim4 4s linear infinite reverse;
+    animation-play-state: running;
+  }
+  @keyframes anim4 {
+    0% {left: -600px}
+    100% {left: 0px}
+  }
+
+  .text {
+    margin-left: 40px;
+    margin-top: 20px;
+    animation: shake 2s ease infinite;
+  }
+  @keyframes shake {
+    0%, 100% {transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);}
+    20%, 40%, 60%, 80% {transform: translateX(30px);}
+  }
+  .star2 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .boysugh {
+    margin-left: 353px;
+    margin-top: -343px;
+  }
+
+  .krugi {
+    margin-left: 970px;
+    margin-top: -343px;
+  }
+
+  .myname {
+    margin-left: 970px;
+    margin-top: 18px;
+  }
